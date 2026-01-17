@@ -98,6 +98,8 @@ AI-Agents-for-Medical-Diagnostics/
 ├─ LICENSE
 └─ .gitignore
 
+```
+
 ## Configuration
 
 This project runs locally using Ollama and does not require API keys.
