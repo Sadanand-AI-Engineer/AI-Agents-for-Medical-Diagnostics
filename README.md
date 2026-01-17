@@ -113,7 +113,7 @@ Model configuration is defined in:
 
 Utils/Agents_Ollama.py
 
-Prerequisites
+## Prerequisites
 
 Python 3.11+
 
@@ -128,39 +128,47 @@ Download and install Ollama for your operating system.
 
 Verify installation:
 
+```
 ollama --version
-
+```
 2. Pull a Supported Model
 
-This project is tested with:
-
-llama3.2 (recommended)
-
+This project is tested with: llama3.2 (recommended)
+```
 ollama pull llama3.2
 ollama list
+```
 
 3. Clone the Repository
+ ```
 git clone https://github.com/Sadanand-AI-Engineer/AI-Agents-for-Medical-Diagnostics.git
 cd AI-Agents-for-Medical-Diagnostics
+```
 
-4. Create and Activate a Virtual Environment
+5. Create and Activate a Virtual Environment
 
 Windows (PowerShell):
-
+```
 python -m venv venv
 .\venv\Scripts\Activate.ps1
-
+```
 
 macOS / Linux:
 
+```
 python3 -m venv venv
 source venv/bin/activate
+```
 
 5. Install Dependencies
+```
 pip install -r requirements.txt
+```
 
-Running the Project
+# Running the Project
+```
 python Main.py
+```
 
 Output
 
