@@ -206,7 +206,7 @@ Prompt Engineering for Role-Specialized LLMs
 
 LLM-Orchestrated Decision Pipelines
 
-## It aligns with graduate-level coursework and professional experience in:
+## It aligns with graduate-level coursework :
 
 Generative AI
 
