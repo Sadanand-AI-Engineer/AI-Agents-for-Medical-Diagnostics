@@ -66,7 +66,7 @@ The system uses **local Large Language Models (LLMs) via Ollama** and a **multi-
 
 ## Repository Structure
 
-
+---
 ```text
 AI-Agents-for-Medical-Diagnostics/
 ├─ Utils/
@@ -79,6 +79,7 @@ AI-Agents-for-Medical-Diagnostics/
 ├─ README.md
 ├─ LICENSE
 └─ .gitignore
+
 
 ---
 ## Configuration
@@ -135,14 +136,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 
-(Optional, reproducible build)
 
-pip install -r requirements-lock.txt
 
-Running the Project
+##Running the Project
 python Main.py
 
-Output
+##Output
 
 A consolidated diagnostic summary is written to:
 
@@ -171,29 +170,15 @@ phi3
 
 llama3
 
-Research & Academic Context
+##Research & Academic Context
 
-This project reflects applied research in:
-
-Agentic AI Systems
-
-Multi-Agent Reasoning
-
-Prompt Engineering
-
-LLM-Orchestrated Decision Pipelines
+This project reflects applied research in: Agentic AI Systems, Multi-Agent Reasoning, Prompt Engineering, LLM-Orchestrated Decision Pipelines
 
 It aligns with graduate-level coursework and professional experience in:
 
-Generative AI
+Generative AI, Cloud-native AI architectures, Data-driven decision automation
 
-Autonomous systems
-
-Cloud-native AI architectures
-
-Data-driven decision automation
-
-Future Enhancements
+##Future Enhancements
 
 Planned and potential extensions:
 
