@@ -87,8 +87,7 @@ Produces a consolidated diagnostic assessment with structured reasoning
 
 ```text
 AI-Agents-for-Medical-Diagnostics/
-├─ Utils/
-│  ├─ Agents.py            # Cloud-based agent definitions (optional)
+├─ Utils/          
 │  └─ Agents_Ollama.py     # Local Ollama-based agents
 ├─ Medical Reports/        # Synthetic medical case reports (optional)
 ├─ Results/                # Generated outputs (ignored by git)
