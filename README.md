@@ -1,4 +1,4 @@
-##AI-Agents-for-Medical-Diagnostics
+# AI-Agents-for-Medical-Diagnostics
 
 Author: Sadanand Katukuri
 Location: Houston, Texas, USA
@@ -6,12 +6,12 @@ Contact: sadanandkatukuri999@gmail.com
 
 LinkedIn: https://www.linkedin.com/in/sadanand-katukuri-49ba1120b/
 
-##Disclaimer
+## Disclaimer
 
 This project is intended strictly for research and educational purposes.
 It is not a medical device and must not be used for clinical diagnosis, treatment, or real-world medical decision-making.
 
-##Overview
+## Overview
 
 AI-Agents-for-Medical-Diagnostics is a research-driven Python project that demonstrates how autonomous, role-specialized AI agents can collaboratively analyze complex medical case narratives and produce a multidisciplinary diagnostic assessment.
 
@@ -19,7 +19,7 @@ The system is built around a multi-agent orchestration architecture, where each 
 
 This project reflects applied work in agentic AI systems, LLM-driven reasoning pipelines, and distributed decision synthesis, and is designed with extensibility and clarity in mind.
 
-##Key Features
+## Key Features
 Multi-Agent Architecture
 
 Independent AI agents representing medical specialists
@@ -48,7 +48,7 @@ Easy to add new specialist agents (e.g., Neurology, Endocrinology)
 
 Modular support for local or cloud-based LLM providers
 
-##System Architecture
+## System Architecture
 Specialist Agents
 
 1. Cardiologist Agent
@@ -81,7 +81,7 @@ Aggregates all specialist outputs
 
 Produces a consolidated diagnostic assessment with structured reasoning
 
-##Repository Structure
+## Repository Structure
 AI-Agents-for-Medical-Diagnostics/
 ├─ Utils/
 │  ├─ Agents.py            # Cloud-based agent definitions (optional)
@@ -94,7 +94,7 @@ AI-Agents-for-Medical-Diagnostics/
 ├─ LICENSE
 └─ .gitignore
 
-##Configuration
+## Configuration
 
 This project runs locally using Ollama and does not require API keys.
 
@@ -115,7 +115,7 @@ Git
 
 Ollama (local LLM runtime)
 
-##Installation & Setup
+## Installation & Setup
 1. Install Ollama
 
 Download and install Ollama for your operating system.
@@ -180,9 +180,9 @@ phi3
 
 llama3
 
-###Research and Professional Context
+# Research and Professional Context
 
-##This project reflects applied work in:
+## This project reflects applied work in:
 
 Agentic AI Systems
 
@@ -192,7 +192,7 @@ Prompt Engineering for Role-Specialized LLMs
 
 LLM-Orchestrated Decision Pipelines
 
-It aligns with graduate-level coursework and professional experience in:
+## It aligns with graduate-level coursework and professional experience in:
 
 Generative AI
 
@@ -200,7 +200,7 @@ Cloud-native AI architectures
 
 Intelligent automation and decision systems
 
-###Future Enhancements
+# Future Enhancements
 
 Planned and potential extensions include:
 
@@ -216,13 +216,13 @@ Evaluation benchmarks and automated testing
 
 Provider switching (Ollama ↔ OpenAI ↔ AWS Bedrock)
 
-##License
+# License
 
 This project is licensed under the Apache License 2.0.
 See the LICENSE
  file for details.
 
-###Contact
+# Contact
 
 For research collaboration, technical discussion, or system design inquiries:
 
