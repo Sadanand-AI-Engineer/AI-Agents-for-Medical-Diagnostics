@@ -84,6 +84,8 @@ Aggregates all specialist outputs
 Produces a consolidated diagnostic assessment with structured reasoning
 
 ## Repository Structure
+
+```text
 AI-Agents-for-Medical-Diagnostics/
 ├─ Utils/
 │  ├─ Agents.py            # Cloud-based agent definitions (optional)
