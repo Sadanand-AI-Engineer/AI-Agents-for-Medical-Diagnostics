@@ -5,16 +5,17 @@
 **Email:** sadanandkatukuri999@gmail.com  
 
 ---
+## Disclaimer
+
+This project is intended for **research and educational purposes only**.
+It is **not a medical device** and must not be used for clinical diagnosis,
+treatment, or real-world medical decision-making.
 
 ## Overview
 
 **AI-Agents-for-Medical-Diagnostics** is a research-oriented Python project that demonstrates how **autonomous, role-specialized AI agents** can collaboratively analyze complex medical case narratives and synthesize multidisciplinary diagnostic insights.
 
 The system uses **local Large Language Models (LLMs) via Ollama** and a **multi-agent orchestration architecture** built with LangChain. Each agent simulates the reasoning process of a medical specialist and contributes domain-specific analysis that is later aggregated into a final multidisciplinary assessment.
-
-> ⚠️ **Disclaimer**  
-> This project is strictly for **educational and research purposes**.  
-> It is **not intended for clinical diagnosis, treatment, or medical decision-making**.
 
 ---
 
@@ -65,26 +66,25 @@ The system uses **local Large Language Models (LLMs) via Ollama** and a **multi-
 
 ## Repository Structure
 
+
+```text
 AI-Agents-for-Medical-Diagnostics/
-│
-├── Utils/
-│ ├── Agents.py # Cloud-based agent definitions (optional)
-│ └── Agents_Ollama.py # Local Ollama-based agents
-│
-├── Medical Reports/ # Synthetic medical case reports (optional)
-├── Results/ # Generated diagnostic outputs (ignored by git)
-│
-├── Main.py # Entry point
-├── requirements.txt
-├── requirements-lock.txt
-├── README.md
-├── LICENSE
-└── .gitignore
-
-
-
+├─ Utils/
+│  ├─ Agents.py           # Cloud-based agent definitions (optional)
+│  └─ Agents_Ollama.py    # Local Ollama-based agents
+├─ Medical Reports/       # Synthetic medical case reports (optional)
+├─ Results/               # Generated outputs (ignored by git)
+├─ Main.py                # Entry point
+├─ requirements.txt
+├─ README.md
+├─ LICENSE
+└─ .gitignore
 
 ---
+## Configuration
+
+This project runs locally using Ollama and does not require API keys.
+
 
 ## Prerequisites
 
@@ -101,7 +101,7 @@ AI-Agents-for-Medical-Diagnostics/
 Download and install Ollama for your operating system.
 
 Verify installation:
-```bash
+
 ollama --version
 
 
@@ -216,9 +216,6 @@ Provider switching (Ollama ↔ OpenAI ↔ AWS Bedrock)
 Copyright © 2026
 Sadanand Katukuri
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction.
 
 Contact
 
