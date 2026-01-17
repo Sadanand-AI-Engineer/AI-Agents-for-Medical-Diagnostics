@@ -1,7 +1,9 @@
 # AI-Agents-for-Medical-Diagnostics
 
 Author: Sadanand Katukuri
+
 Location: Houston, Texas, USA
+
 Contact: sadanandkatukuri999@gmail.com
 
 LinkedIn: https://www.linkedin.com/in/sadanand-katukuri-49ba1120b/
