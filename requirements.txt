@@ -1,0 +1,7 @@
+langchain
+langchain-community
+langchain-openai
+langchain-experimental
+langchain-ollama
+python-dotenv
+reportlab
