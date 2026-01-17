@@ -66,7 +66,8 @@ The system uses **local Large Language Models (LLMs) via Ollama** and a **multi-
 
 ## Repository Structure
 
----
+
+
 ```text
 AI-Agents-for-Medical-Diagnostics/
 ├─ Utils/
@@ -79,6 +80,7 @@ AI-Agents-for-Medical-Diagnostics/
 ├─ README.md
 ├─ LICENSE
 └─ .gitignore
+
 
 
 ---
